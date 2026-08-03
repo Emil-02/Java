@@ -1,0 +1,19 @@
+# Hasil kompilasi Java
+*.class
+out/
+bin/
+
+# File lock / backup editor
+*~
+.LCK*
+~$*
+
+# IDE
+.idea/
+.vscode/
+*.ipr
+*.iws
+
+# OS
+Thumbs.db
+.DS_Store
