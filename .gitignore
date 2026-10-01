@@ -17,3 +17,9 @@ bin/
 # OS
 Thumbs.db
 .DS_Store
+
+# --- jangan upload file rahasia ---
+.env
+.env.*
+!.env.example
+*.env
