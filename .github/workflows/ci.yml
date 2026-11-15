@@ -18,4 +18,4 @@ jobs:
           distribution: temurin
           java-version: "21"
       - name: Compile
-        run: find . -name "*.java" -not -path "./out/*" > sources.txt && javac -d out @sources.txt
+        run: bash .github/scripts/compile-all.sh
