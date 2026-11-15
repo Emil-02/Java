@@ -1,8 +1,5 @@
 import LinkList.Operasi;
 
-import Operasi;
-
-package LinkList;
 public class Main {
     public static void main(String[] args) {
         // Membuat objek dari kelas Operasi
